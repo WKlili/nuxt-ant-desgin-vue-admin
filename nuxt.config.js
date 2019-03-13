@@ -1,6 +1,6 @@
-const pkg = require('./package')
+import pkg from './package'
 
-module.exports = {
+export default {
   mode: 'universal',
 
   /*
@@ -29,7 +29,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: ['@/plugins/antd-ui'],
+  plugins: [{ src: '@/plugins/antd-ui' }],
 
   /*
   ** Nuxt.js modules

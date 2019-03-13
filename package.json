@@ -14,10 +14,11 @@
     "test": "ava"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
+    "@nuxtjs/axios": "^5.3.6",
     "ant-design-vue": "^1.1.10",
-    "@nuxtjs/axios": "^5.3.6"
+    "cross-env": "^5.2.0",
+    "konva": "^3.2.0",
+    "nuxt": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
